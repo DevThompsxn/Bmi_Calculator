@@ -21,10 +21,17 @@ console.log("High Risk Alert:", isHighRisk);
 console.log("============================================");
 
 document.write("============ BMI HEALTH REPORT =============");
+document.write(linebreak);
 document.write("Name:", personName);
+document.write(linebreak);
 document.write("BMI:", bmi.toFixed(2));
+document.write(linebreak);
 document.write("Underweight:", isUnderWeight);
+document.write(linebreak);
 document.write("Normal Weight:", isNormalWeight);
+document.write(linebreak);
 document.write("Overweight:", isOverWeight);
+document.write(linebreak);
 document.write("High Risk Alert:", isHighRisk);
+document.write(linebreak);
 document.write("============================================");
