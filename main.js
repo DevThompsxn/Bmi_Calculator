@@ -18,3 +18,13 @@ console.log("Underweight:", isUnderWeight);
 console.log("Normal Weight:", isNormalWeight);
 console.log("Overweight:", isOverWeight);
 console.log("High Risk Alert:", isHighRisk);
+console.log("============================================");
+
+document.write("============ BMI HEALTH REPORT =============");
+document.write("Name:", personName);
+document.write("BMI:", bmi.toFixed(2));
+document.write("Underweight:", isUnderWeight);
+document.write("Normal Weight:", isNormalWeight);
+document.write("Overweight:", isOverWeight);
+document.write("High Risk Alert:", isHighRisk);
+document.write("============================================");
