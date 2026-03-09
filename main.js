@@ -1,6 +1,6 @@
-let personName = "Michael Oliver";
-let weightKg = 80;
-let heightM = 1.80
+let personName = prompt("Enter your name");
+let weightKg = Number(prompt("Enter your weight [kg]"));
+let heightM = Number(prompt("Enter your height [m]"));
 
 const heightSquared = heightM**2;
 const bmi = weightKg / heightSquared;
